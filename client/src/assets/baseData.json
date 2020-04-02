@@ -1,0 +1,232 @@
+{
+  "barChart": {
+    "baseData": {
+      "MetaConfig": {
+        "title": "降雨量"
+      },
+      "style": {
+        "color": ["#69C0FF"]
+      },
+      "id": "this.id",
+      "data": [
+        {
+          "name": "Mon",
+          "value": "10"
+        },
+        {
+          "name": "Tue",
+          "value": "706"
+        },
+        {
+          "name": "Wed",
+          "value": "239"
+        },
+        {
+          "name": "Thu",
+          "value": 172
+        }
+      ],
+      "datamappers": [
+        {
+          "Fieldname": "value",
+          "Fieldtype": "num",
+          "Mapfrom": null,
+          "Alias": null
+        },
+        {
+          "Fieldname": "name",
+          "Fieldtype": "string",
+          "Mapfrom": null,
+          "Alias": null
+        }
+      ],
+      "button": {
+        "method": "startanalyzedata",
+        "title": "Apply"
+      },
+      "mapperdatas": null
+    }
+  },
+  "piechart": {
+    "baseData": {
+      "MetaConfig": {
+        "title": "饼状图"
+      },
+      "style": {
+        "color": [
+          "#35c17c",
+          "#af7eff",
+          "#3bcaff",
+          "#27C181",
+          "#FE902D",
+          "#FCCA74"
+        ]
+      },
+      "id": "this.id",
+      "data": [
+        {
+          "item": "高血压",
+          "count": 3228,
+          "percent": 0.13568726355611602
+        },
+        {
+          "item": "糖尿病",
+          "count": 880,
+          "percent": 0.036990332072299285
+        },
+        {
+          "item": "老人",
+          "count": 16376,
+          "percent": 0.6883564522908785
+        },
+        {
+          "item": "残疾人",
+          "count": 190,
+          "percent": 0.007986548970155528
+        },
+        {
+          "item": "儿童",
+          "count": 2765,
+          "percent": 0.11622530474989491
+        },
+        {
+          "item": "精神病",
+          "count": 351,
+          "percent": 0.014754098360655738
+        }
+      ],
+      "datamappers": [
+        {
+          "Fieldname": "name",
+          "Fieldtype": "string",
+          "Mapfrom": null,
+          "Alias": null
+        }
+      ],
+
+      "button": {
+        "method": "startanalyzedata",
+        "title": "Apply"
+      },
+      "mapperdatas": null,
+      "width": 484,
+      "height": 310
+    }
+  },
+  "canlendar": {
+    "baseData": {
+      "MetaConfig": {
+        "title": "日历图"
+      },
+      "style": {
+        "color": ["#e0ffff", "#006edd"]
+      },
+      "id": "this.id",
+      "data": [["2012/08/05", "33"], ["2012/09/05", "58"]],
+      "datamappers": [
+        {
+          "Fieldname": "value",
+          "Fieldtype": "num",
+          "Mapfrom": null,
+          "Alias": null
+        },
+        {
+          "Fieldname": "date",
+          "Fieldtype": "string",
+          "Mapfrom": null,
+          "Alias": null
+        }
+      ],
+      "button": {
+        "method": "startanalyzedata",
+        "title": "Apply"
+      },
+      "mapperdatas": null
+    }
+  },
+  "linechart": {
+    "baseData": {
+      "MetaConfig": {
+        "title": "温度变化"
+      },
+      "style": {
+        "color": ["#35c17c", "#af7eff"]
+      },
+      "id": "this.id",
+      "data": [
+        {
+          "time": "2012/09/23",
+          "city": "max",
+          "temperature": 23
+        },
+        {
+          "time": "2012/09/23",
+          "city": "min",
+          "temperature": 3
+        },
+        {
+          "time": "2012/09/24",
+          "city": "max",
+          "temperature": 10
+        },
+        {
+          "time": "2012/09/24",
+          "city": "min",
+          "temperature": 10
+        }
+      ],
+      "datamappers": [
+        {
+          "Fieldname": "value",
+          "Fieldtype": "num",
+          "Mapfrom": null,
+          "Alias": null
+        },
+        {
+          "Fieldname": "time",
+          "Fieldtype": "string",
+          "Mapfrom": null,
+          "Alias": null
+        }
+      ],
+      "button": {
+        "method": "startanalyzedata",
+        "title": "Apply"
+      },
+      "mapperdatas": null
+    }
+  },
+  "scatter_vega": {
+    "baseData": {
+      "MetaConfig": {
+        "title": "scatter_vega"
+      },
+      "style": {
+        "color": ["#ffffff"]
+      },
+      "id": "this.id",
+      "width": 200,
+      "height": 200,
+      "data": [{ "x": "2012/09/24", "y": "45" }],
+      "datamappers": [
+        {
+          "Fieldname": "value",
+          "Fieldtype": "num",
+          "Mapfrom": null,
+          "Alias": null
+        },
+        {
+          "Fieldname": "date",
+          "Fieldtype": "string",
+          "Mapfrom": null,
+          "Alias": null
+        }
+      ],
+      "button": {
+        "method": "startanalyzedata",
+        "title": "Apply"
+      },
+      "mapperdatas": null
+    }
+  }
+}

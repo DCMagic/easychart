@@ -1,0 +1,97 @@
+[
+  {
+    "controller": "Piechart",
+    "controllee": {
+      "Barchart": {
+        "action": [
+          "filter"
+        ]
+      },
+      "Linechart": {
+        "action": [
+          "filter"
+        ]
+      },
+      "Scatter": {
+        "action": [
+          "filter"
+        ]
+      }
+    }
+  },
+  {
+    "controller": "Barchart",
+    "controllee": {
+      "Piechart": {
+        "action": [
+          "filter","connect"
+        ]
+      },
+      "Linechart": {
+        "action": [
+          "filter","connect"
+        ]
+      },
+      "Bubblechart": {
+        "action": [
+          "filter","connect"
+        ]
+      },
+      "Canlendar": {
+        "action": [
+          "filter","connect"
+        ]
+      }
+    }
+  },
+  {
+    "controller": "Scatter",
+    "controllee": {
+      "Piechart": {
+        "action": [
+          "filter","connect"
+        ]
+      },
+      "Linechart": {
+        "action": [
+          "filter","connect"
+        ]
+      },
+      "Bubblechart": {
+        "action": [
+          "filter","connect"
+        ]
+      },
+      "Barchart": {
+        "action": [
+          "filter","connect"
+        ]
+      }
+    }
+  },
+  {
+    "controller": "Canlendar",
+    "controllee": {
+      "Piechart": {
+        "action": [
+          "filter","connect"
+        ]
+      },
+      "Linechart": {
+        "action": [
+          "filter","connect"
+        ]
+      },
+      "Scatter": {
+        "action": [
+          "filter","connect"
+        ]
+      },
+      "Barchart": {
+        "action": [
+          "filter","connect"
+        ]
+      }
+    }
+  }
+]
